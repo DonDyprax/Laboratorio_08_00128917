@@ -1,0 +1,54 @@
+Create Element
+
+¿Qué contienen la variable formulario ?
+En la variable formulario esta almacenado el contenido del elemento que tiene el id "bitacora" que en este caso es un formulario.
+
+----------------------------------------------------------------------------
+Evento Submit
+
+¿Qué hace el método evt.preventDefault() ?
+El metodo preventDefault() cancela la accion por defecto del elemento al que se le aplica.
+
+¿Qué es lo que contiene formulario[x]?
+Al contener la variable formulario el formulario con id "bitacora", al utilizar formulario[x] se accede al indice de cada elemento de la coleccion del formulario.
+
+----------------------------------------------------------------------------
+Crear nodo
+
+¿Qué contienen las variables tr y td ?
+La variable td contiene un nuevo campo td que se utilizara luego para almacenar el contenido de cada campo del formulario a traves de la variable, para todos los campos, mientras que tr contiene una nueva fila de la tabla, que luego contendra los td con la informacion de los campos del formulario.
+
+¿Qué contienen la variable content ?
+La variable content almacena el valor de cada campo del formulario.
+
+¿Qué valor tendra tbody al finalizar la iteración?
+tbody tendra una nueva fila al finalizar la iteracion, es decir, se aumenta su cantidad de filas en uno, y a su vez, cada fila contiene el contenido de cada campo ingresado en el formulario.
+
+Describa en pocas palabras lo que realizara esta función
+En pocas palabras, esta funcion lo que hace es que toma los valores de cada campo del formulario y lo agrega a una tabla.
+
+----------------------------------------------------------------------------
+Eliminar nodo
+
+¿Qué es lo que hace .firstChild?
+.firstChild selecciona el primer elemento hijo del elemento al que se le aplica el metodo en caso de exista. En caso que no exista un elemento hijo, el metodo retorna null.
+
+Después de realizar el while ¿Comó quedara el elemento tbody ?
+El elemento tbody quedara vacio.
+
+¿Qué es lo que obtenemos cuando se ejecuta item.childNodes[i].textContent;
+Obtenemos el contenido en texto del elemento hijo en el indice "i" de cada elemento "item".
+
+¿Qué es lo que obtenemos cuando se realiza document.querySelector(".tabla-btc tbody") ?
+Se obtiene el contenido del elemento HTML que tiene aplicada la clase "tabla-btc tbody" que vendria siendo el cuerpo de la tabla de las bitacoras.
+
+¿Qué hace el método childElementCount?
+Retorna la cantidad de elementos hijo que el elemento al que se le aplica el metodo tiene.
+
+¿Qué se mostrara en pantalla cuando se ejecute la función agregar()?
+Se muestra en el textarea "descripcion" la fecha de la entrada de la bitacora a la que se hace click.
+
+¿Qué se mostrara en el navegador despues de ejecutar la función mostrar?
+Se muestran las entradas de la bitacora en forma de tabla.
+
+
